@@ -317,6 +317,7 @@ Blurbs
     div.important,
     div.caution,
     div.warning,
+    div.blurb,
     p.blurb
     {
         font-size: 9pt; /* A little bit smaller than the main text */
@@ -326,6 +327,7 @@ Blurbs
         padding: 0.5pc 0.5pc 0.5pc 0.5pc;
     }
 
+    div.blurb img,
     p.blurb img
     {
         padding: 1pt;
@@ -415,13 +417,13 @@ Colors
 
     /* Syntax Highlighting */
         .property,
-        .highlight .k
-        .highlight .kc
-        .highlight .kd
-        .highlight .kn
-        .highlight .kp
-        .highlight .kr
-        .highlight .kt
+        .highlight .k,
+        .highlight .kc,
+        .highlight .kd,
+        .highlight .kn,
+        .highlight .kp,
+        .highlight .kr,
+        .highlight .kt,
         .keyword { color: #0000AA; }
 
         .highlight .n,
@@ -453,28 +455,28 @@ Colors
         .highlight .sc
         .char { color: teal; }
 
-        .highlight .c
-        .highlight .ch
-        .highlight .cm
-        .highlight .cp
-        .highlight .cpf
-        .highlight .c1
-        .highlight .cs
-        .highlight .sd
-        .highlight .sh
+        .highlight .c,
+        .highlight .ch,
+        .highlight .cm,
+        .highlight .cp,
+        .highlight .cpf,
+        .highlight .c1,
+        .highlight .cs,
+        .highlight .sd,
+        .highlight .sh,
         .comment { color: #800000; }
 
-        .highlight .s
-        .highlight .sa
-        .highlight .sb
-        .highlight .dl
-        .highlight .s2
-        .highlight .se
-        .highlight .si
-        .highlight .sx
-        .highlight .sr
-        .highlight .s1
-        .highlight .ss
+        .highlight .s,
+        .highlight .sa,
+        .highlight .sb,
+        .highlight .dl,
+        .highlight .s2,
+        .highlight .se,
+        .highlight .si,
+        .highlight .sx,
+        .highlight .sr,
+        .highlight .s1,
+        .highlight .ss,
         .string { color: teal; }
 
         .highlight .m,
@@ -549,6 +551,7 @@ Colors
         div.important,
         div.caution,
         div.warning,
+        div.blurb,
         p.blurb
         {
             border: 1px solid #DCDCDC;
