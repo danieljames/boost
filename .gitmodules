@@ -506,11 +506,11 @@
 	path = libs/compute
 	url = ../compute.git
 	fetchRecurseSubmodules = on-demand
-[submodule "libs/hana"]
+[submodule "hana"]
 	path = libs/hana
 	url = ../hana.git
 	fetchRecurseSubmodules = on-demand
-[submodule "libs/metaparse"]
+[submodule "metaparse"]
 	path = libs/metaparse
 	url = ../metaparse.git
 	fetchRecurseSubmodules = on-demand
@@ -541,4 +541,8 @@
 [submodule "mp11"]
 	path = libs/mp11
 	url = ../mp11.git
+	fetchRecurseSubmodules = on-demand
+[submodule "callable_traits"]
+	path = libs/callable_traits
+	url = ../callable_traits.git
 	fetchRecurseSubmodules = on-demand
